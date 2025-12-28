@@ -72,6 +72,8 @@ npm install
 ```
 MONGODB_URI=your_mongodb_connection_string
 PORT=5000
+BASE_URL=http://localhost:5000
+FRONTEND_URL=http://localhost:5173
 ```
 
 4. Start the server:
@@ -161,7 +163,7 @@ NODE_ENV=development
 
 ### Frontend (.env)
 ```
-VITE_API_URL=http://localhost:5000
+VITE_BACKEND_URL = http://localhost:5000
 ```
 
 ## Running Both Services Concurrently
